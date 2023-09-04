@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REQUEST"
+        android:textColor="#000000"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.200"
+        />
+
+    <EditText
+        android:id="@+id/Name2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:elevation="16dp"
+        android:hint="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.340" />
+
+    <EditText
+        android:id="@+id/Age20"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:drawableLeft="@drawable/ic_baseline_perm_contact_calendar_24"
+        android:elevation="16dp"
+        android:hint="Age"
+        android:phoneNumber="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.540" />
+
+    <EditText
+        android:id="@+id/symp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:drawableLeft="@drawable/ic_baseline_sticky_note_2_24"
+        android:elevation="16dp"
+        android:hint="Symptoms"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.640" />
+
+    <EditText
+        android:id="@+id/mobile20"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="2dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:elevation="16dp"
+        android:hint="mobile"
+        android:phoneNumber="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.440" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#449CFA"
+        android:text="Submit Request"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.790" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
